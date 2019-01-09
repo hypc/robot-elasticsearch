@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "acknowledged": { "type": "boolean", "default": true },
+        "shards_acknowledged": { "type": "boolean", "default": true },
+        "index": { "type": "string" }
+    },
+    "required": ["acknowledged", "shards_acknowledged", "index"]
+}

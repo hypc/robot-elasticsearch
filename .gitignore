@@ -26,7 +26,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.vscode/*
+.vscode/
+.idea/
 
 # Swap
 [._]*.s[a-v][a-z]
@@ -161,3 +162,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+log.html
+output.xml
+report.html

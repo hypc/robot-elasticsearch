@@ -1,0 +1,8 @@
+{
+    "type": "object",
+    "properties": {
+        "error": { "type": "object" },
+        "status": { "type": "integer", "default": 400 }
+    },
+    "required": ["error", "status"]
+}
