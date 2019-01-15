@@ -5,12 +5,11 @@ Resources
 *** Variables ***
 ${SERVER}           192.168.56.10
 ${PORT}             9200
-${TEST_TIMEOUT}     1
-${LIBRARY_DIR}      ${EXECDIR}/elasticsearch_library
+${TEST_TIMEOUT}     2
 
 
 *** Settings ***
-Library         JSONSchemaLibrary  tests
+Library             JSONSchemaLibrary  tests
 
 
 *** Keywords ***

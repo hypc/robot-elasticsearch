@@ -3,7 +3,7 @@ Indices Tests
 
 *** Settings ***
 Resource        ../resources.robot
-Library         ${LIBRARY_DIR}/indices_apis/IndexLibrary.py  ${SERVER}  ${PORT}  WITH NAME  IndicesIndexLibrary
+Library         elasticsearch_library.IndicesLibrary  ${SERVER}  ${PORT}
 
 *** Test Cases ***
 查询一个不存在的Indices

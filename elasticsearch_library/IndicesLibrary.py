@@ -1,7 +1,7 @@
 import requests
 
 
-class IndexLibrary(object):
+class IndicesLibrary(object):
     def __init__(self, host, port=9200):
         self._host = host
         self._port = port
